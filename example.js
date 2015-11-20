@@ -102,7 +102,7 @@
   
   var elNew = window.document.createElement('div');
   elNew.className = 'btn_el';
-  elNew.appendChild(window.document.createTextNode('me\n2' ));
+  elNew.appendChild(window.document.createTextNode('git me\n2' ));
   elNew.setAttribute('id','the1st1');
 //  elNew.style.position = 'fixed';
   elNew.addEventListener("click", function(){zz(this).lastF();}, false);
